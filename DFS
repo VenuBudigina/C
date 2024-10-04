@@ -11,7 +11,7 @@ void initializeGraph(int vertices) {
             graph[i][j] = 0; 
         }
         visited[i] = false;
-    } 666
+    } 
 }
 void addEdge(int src, int dest) {
     graph[src][dest] = 1; 
